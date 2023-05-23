@@ -1,7 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #D2691E;
+  background-color: #DEB887;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(/fuentes/Lato-bold.ttf)
+  format('truetype');
 }
 
 header {
@@ -13,31 +19,36 @@ header {
 }
 
 #logo {
-  width: 200px;
-  height: 200px;
+  width: 17vw;
+  height: 27vh;
 }
 
 .titulo {
   color: white;
-  font-size: 35px;
-  font-family: sans-serif;
+  font-size: 2.3em;
+  font-family: 'Lato'
   font-style: italic;
   text-decoration: underline;
 }
 
+.redes {
+  display: flex;
+}
+
 .redes a {
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
-  margin: 3px;
-  padding: 5px;
+  font-size: 1.7em;
+  width: 3.5vw;
+  height: 4.5vh;
+  margin: 5%;
+  padding: 1%;
   text-align: center;
   color: #fff;
+  text-decoration: none;
 }
 
 .recetas {
-  font-size: 12px;
-  background: #DEB887;
+  font-size: 1em;
+  background: #D2691E;
   display: flex;
   text-align: center;
 }
@@ -54,14 +65,13 @@ header {
 }
 
 .recetas li a:hover {
-  background: #9b7653;
+  background: #d58f41;
 }
 
 .contenido-principal {
   width: 100%;
   height: 100%;
   margin-top: 10px;
-
   box-shadow: 0px 5px #000;
   background:  #DEB887;
 }
@@ -70,8 +80,8 @@ img {
   align-items: center;
   margin: 0 auto;
   padding: 20px 10px;
-  width: 400px;
-  height: 200px;
+  width: 26vw;
+  height: 28vh;
 }
 
 .subtitulo {
@@ -82,18 +92,19 @@ img {
 .video {
   padding: 30px;
   margin: 10px auto;
-  width: 560px;
-  height: 315px;
+  width: 50%;
+  height: 45vh;
 }
 
 h2 {
     text-align: center;
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 2.5em;
+    font-family: 'Cormorant', serif;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 2.3em;
     text-decoration: underline;
     font-family: sans-serif;
     margin: 0;
@@ -101,19 +112,19 @@ h3 {
 }
 
 p {
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 .ul-container {
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 1.3em;
+    font-family: 'Wix Madefor Text', sans-serif;
     margin: 10px auto;
 }
 
 .ol-container {
-  font-size: 20px;
-  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-family: 'Wix Madefor Text', sans-serif;
   margin: 10px auto;
 }
 
