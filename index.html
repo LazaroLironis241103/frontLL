@@ -17,6 +17,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+  <script>
+     alert('Bienvenido, estas por ver las recetas de las mejores empanadas argentinas!')
+  </script>
   </head>
   <body>
     <!--Aqui esta el titulo y las respectivas redes sociales-->
@@ -29,6 +34,10 @@
          <a href="https://twitter.com/lalo_lironis?t=ZtqK6E5PB8U8q_QKAVL0wQ&s=09" class="fa fa-twitter" target="_blank"></a>
          <a href="#" class="fa fa-whatsapp"></a>
        </div>
+       <button class="switch active" id="switch">
+         <span class="sol-luna"><i class="fas fa-sun"></i></span>
+         <span class="sol-luna"><i class="fas fa-moon"></i></span>
+       </button>
      </header>
      <!--Aqui estan los links que nos llevaran a otras recetas similares-->
      <nav class="recetas">
@@ -212,7 +221,7 @@ Es un clásico, sin esto no es empanada salteña. - Rallar los tomates, finament
     <div class="container-fluid">
   <div class="row">
     <div class="uno col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
     <img src="./imagenes/hamburguesa.jpg" class="card-img-top" alt="Foto de Hamburguesa">
     <div class="card-body">
       <h5 class="card-title">Hamburguesa</h5>
@@ -222,7 +231,7 @@ Es un clásico, sin esto no es empanada salteña. - Rallar los tomates, finament
   </div>
     </div>
     <div class="dos col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img src="./imagenes/milanesa.jpg" class="card-img-top" alt="Foto de Milanesa Napolitana">
         <div class="card-body">
           <h5 class="card-title">Milanesa Napolitana</h5>
@@ -232,7 +241,7 @@ Es un clásico, sin esto no es empanada salteña. - Rallar los tomates, finament
       </div>
     </div>
     <div class="tres col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img src="./imagenes/pizza.jpg" class="card-img-top" alt="Foto de Pizza">
         <div class="card-body">
           <h5 class="card-title">Pizza De Mozzarella</h5>
@@ -242,7 +251,7 @@ Es un clásico, sin esto no es empanada salteña. - Rallar los tomates, finament
       </div>
     </div>
     <div class="cuatro col-lg-3 col-md-6 col-sm-12">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img src="./imagenes/sorrentinos.jpg" class="card-img-top" alt="Foto de Sorrentinos">
         <div class="card-body">
           <h5 class="card-title">Sorrentinos de JyQ</h5>
@@ -267,11 +276,14 @@ Es un clásico, sin esto no es empanada salteña. - Rallar los tomates, finament
       <a href="https://twitter.com/lalo_lironis?t=ZtqK6E5PB8U8q_QKAVL0wQ&s=09" class="fa fa-twitter" target="_blank"></a>
       <a href="#" class="fa fa-whatsapp"></a>
     </div>
-    <div class="author-description">
-    <p>Desarrollado por <span>Lazaro Lironis</span></p>
-    <p>Email <span>lalolironis@gmail.com</span></p>
-  </div>
+    <script>
+    function copy() {alert("Creado por: Lazaro Lironis. Mail: lalolironis@gmail.com")}
+    </script>
+    
+     <button class="author" onclick="copy()">Copyright</button>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="./js/javascript.js"></script>
   </body>
 </html>
